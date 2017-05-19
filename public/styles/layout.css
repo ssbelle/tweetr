@@ -16,10 +16,25 @@ html {
 
 body {
   margin: 0;
+  display: flex;
+  justify-content: center;
   color: #244751;
   background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ .container {
+    margin-top: 80px;
+    background-color: #fff;
+    height: auto;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+ }
